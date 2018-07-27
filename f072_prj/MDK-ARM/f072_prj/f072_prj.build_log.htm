@@ -1,0 +1,125 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: ¦ÌVision V5.20.0.39
+Copyright (C) 2016 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: L Users, Microsoft, LIC=VGX74-FPA4A-0NZAM-XXBSB-PP11B-EMZEP
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Plus  Version: 5.11.0.0
+Toolchain Path:  C:\Keil_v5\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.04 update 1 (build 49)
+Assembler:       Armasm.exe V5.04 update 1 (build 49)
+Linker/Locator:  ArmLink.exe V5.04 update 1 (build 49)
+Library Manager: ArmAr.exe V5.04 update 1 (build 49)
+Hex Converter:   FromElf.exe V5.04 update 1 (build 49)
+CPU DLL:         SARMCM3.DLL V5.11.0.0
+Dialog DLL:      DARMCM1.DLL V1.11.00.0
+Target DLL:      STLink\ST-LINKIII-KEIL_SWO.dll V2.0.6.0_KEIL
+Dialog DLL:      TARMCM1.DLL V1.08.00.0
+ 
+<h2>Project:</h2>
+D:\A_project\KeilPath\f072_prj\f072_prj\MDK-ARM\f072_prj.uvprojx
+Project File Date:  12/25/2017
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.04 update 1 (build 49)', folder: 'C:\Keil_v5\ARM\ARMCC\Bin'
+Build target 'f072_prj'
+compiling sch.c...
+..\User\src\../ins/LvM.h(19): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\User\src\../ins/Sci.h(25): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\User\src\../ins/flash_user.h(96): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\User\src\sch.c(77): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\User\src\sch.c: 4 warnings, 0 errors
+compiling flash_user.c...
+..\User\src\../ins/flash_user.h(96): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\User\src\flash_user.c(222): warning:  #177-D: variable "endaddr" was declared but never referenced
+  	uint32_t 	endaddr=0;	
+..\User\src\flash_user.c(223): warning:  #177-D: variable "PageError" was declared but never referenced
+  	uint32_t  PageError = 0;
+..\User\src\flash_user.c(341): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\User\src\flash_user.c(12): warning:  #177-D: variable "ARR_ADDR_FLASH_PAGE" was declared but never referenced
+  static uint32_t ARR_ADDR_FLASH_PAGE[64] ;
+..\User\src\flash_user.c: 5 warnings, 0 errors
+compiling LvM.c...
+..\User\src\../ins/LvM.h(19): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\User\src\LvM.c(41): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\User\src\LvM.c: 2 warnings, 0 errors
+compiling EEprom.c...
+..\User\src\../ins/EEprom.h(19): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\User\src\EEprom.c(7): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\User\src\EEprom.c: 2 warnings, 0 errors
+compiling gpio.c...
+compiling Sci.c...
+..\User\src\../ins/Sci.h(25): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\User\src\Sci.c(77): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\User\src\Sci.c: 2 warnings, 0 errors
+compiling i2c.c...
+compiling main.c...
+../Src/../User/ins/main_task.h(10): warning:  #47-D: incompatible redefinition of macro "NULL" (declared at line 57 of "C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h")
+  #define NULL (void*)0 
+../Src/main.c: 1 warning, 0 errors
+compiling usart.c...
+compiling stm32f0xx_hal_msp.c...
+compiling stm32f0xx_it.c...
+../Src/../User/ins/main_task.h(10): warning:  #47-D: incompatible redefinition of macro "NULL" (declared at line 57 of "C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h")
+  #define NULL (void*)0 
+../Src/stm32f0xx_it.c: 1 warning, 0 errors
+compiling tim.c...
+compiling dma.c...
+compiling stm32f0xx_hal_rcc_ex.c...
+compiling stm32f0xx_hal_tim.c...
+compiling stm32f0xx_hal_tim_ex.c...
+compiling stm32f0xx_hal_uart_ex.c...
+compiling stm32f0xx_hal.c...
+compiling stm32f0xx_hal_flash_ex.c...
+compiling stm32f0xx_hal_pwr.c...
+compiling stm32f0xx_hal_rcc.c...
+compiling stm32f0xx_hal_gpio.c...
+compiling stm32f0xx_hal_cortex.c...
+compiling stm32f0xx_hal_i2c.c...
+compiling stm32f0xx_hal_uart.c...
+compiling stm32f0xx_hal_i2c_ex.c...
+compiling stm32f0xx_hal_dma.c...
+compiling stm32f0xx_hal_flash.c...
+compiling system_stm32f0xx.c...
+compiling stm32f0xx_hal_pwr_ex.c...
+linking...
+Program Size: Code=7096 RO-data=328 RW-data=24 ZI-data=1480  
+"f072_prj\f072_prj.axf" - 0 Error(s), 17 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: ARM
+                http://www.keil.com/pack/ARM.CMSIS.4.1.0.pack
+                ARM::CMSIS:CORE:3.30.0
+                CMSIS (Cortex Microcontroller Software Interface Standard)
+   * Component: CORE Version: 3.30.0
+
+<h2>Collection of Component include folders:</h2>
+  D:\A_project\KeilPath\f072_prj\f072_prj\MDK-ARM\RTE
+  C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.0\CMSIS\Include
+  C:\Keil_v5\ARM\PACK\Keil\STM32F0xx_DFP\1.5.0\Device\Include
+
+<h2>Collection of Component Files used:</h2>
+
+   * Component: ARM::CMSIS:CORE:3.30.0
+      Source file:   CMSIS\UserCodeTemplates\ARM\ITM_Retarget.c
+Build Time Elapsed:  00:00:28
+</pre>
+</body>
+</html>
